@@ -151,6 +151,6 @@ dmypy.json
 .prof
 
 /media
-.img
+.jpg
 # /media file is not going to be uploaded
 # End of https://www.toptal.com/developers/gitignore/api/django

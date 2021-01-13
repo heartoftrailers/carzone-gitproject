@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 
-class Team(models.Model):
+class Team(models.Model): #models fields for Team
     first_name = models.CharField(max_length=255)
     last_name = models.CharField(max_length=255)
     designation = models.CharField(max_length=255)
@@ -14,4 +14,4 @@ class Team(models.Model):
     created_date = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.first_name
+        return self.first_name #to display first name member of team instead
